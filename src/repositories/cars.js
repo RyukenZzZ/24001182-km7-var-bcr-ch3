@@ -51,7 +51,7 @@ exports.createCar = (data) => {
 
 exports.updateCar = (id, data) => {
     // Find the existing car data
-    const car = cars.find((car) => car.id === Number(id));
+    const car = cars.find((car) => car.id === (id));
     if (!car) {
         // Make a error class
         throw new NotFoundError("car is Not Found!");

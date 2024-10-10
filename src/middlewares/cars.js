@@ -33,15 +33,14 @@ exports.validateGetCarById = (req, res, next) => {
 };
 
 exports.validateCreateCar = (req, res, next) => {
+
   req.body = {
     ...req.body,
     rentPerDay: Number(req.body.rentPerDay), // Convert rentPerDay to number
     capacity: Number(req.body.capacity), // Convert capacity to number
     year: Number(req.body.year), // Convert year to number
     available: req.body.available === "true", // Convert available to boolean
-    options: Array.isArray(req.body.options)
-      ? req.body.options
-      : [req.body.options], // Convert options to array
+    options: Array.isArray(req.body.options)? req.body.options: [req.body.options], // Convert options to array
     specs: Array.isArray(req.body.specs) ? req.body.specs : [req.body.specs],
   };
 
@@ -87,12 +86,26 @@ exports.validateUpdateCar = (req, res, next) => {
     throw new BadRequestError(resultValidateParams.error.errors);
   }
 
+  // Parse req.body
+  req.body = {
+    ...req.body,
+    rentPerDay: Number(req.body.rentPerDay), // Convert rentPerDay to number
+    capacity: Number(req.body.capacity), // Convert capacity to number
+    year: Number(req.body.year), // Convert year to number
+    available: req.body.available === "true", // Convert available to boolean
+    options: Array.isArray(req.body.options)? req.body.options: [req.body.options], // Convert options to array
+    specs: Array.isArray(req.body.specs) ? req.body.specs : [req.body.specs],
+  };
+
+  // Validation body schema
   const validateBody = z.object({
-    id: z.string(),
     plate: z.string(),
     manufacture: z.string(),
     model: z.string(),
-    image: z.string(),
+    image: z.object({
+        name: z.string(),
+        data: z.any(),
+      }).nullable().optional(),
     rentPerDay: z.number(),
     capacity: z.number(),
     description: z.string(),

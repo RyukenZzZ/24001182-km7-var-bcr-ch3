@@ -1022,17 +1022,17 @@
     },
     {
         "id": "fd61247d-08aa-4e76-bf4a-f17cf96889d5",
-        "plate": "1",
-        "manufacture": "dsawdqWWDA",
-        "model": "sandjandnwu",
+        "plate": "test",
+        "manufacture": "test",
+        "model": "test",
         "rentPerDay": 3000,
-        "capacity": 2,
-        "description": "sadadada",
-        "availableAt": "asdadad",
-        "transmission": "asdassadasd",
+        "capacity": 4,
+        "description": "test",
+        "availableAt": "test",
+        "transmission": "test",
         "available": false,
-        "type": "adswassad",
-        "year": 2022,
+        "type": "test",
+        "year": 2,
         "options": [
             "option 1",
             "option 2"
@@ -1041,6 +1041,6 @@
             "specs 1",
             "specs 2"
         ],
-        "image": "https://ik.imagekit.io/ddyxw1f62/car02.min_41WZMdzP2.jpg"
+        "image": "https://ik.imagekit.io/ddyxw1f62/car04.min_m8KVaa4-Q.jpg"
     }
 ]

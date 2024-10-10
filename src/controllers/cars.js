@@ -25,10 +25,10 @@ exports.createCar = async (req, res, next) => {
 };
 
 
-exports.updateCar = (req, res, next) => {
+exports.updateCar = async (req, res, next) => {
     // Get the id from params
     const { id } = req.params;
-    const data = carService.updateCar(id, req.body);
+    const data = await carService.updateCar(id, req.body, req.files);
     successResponse(res, data, "car successfully changed !");
 };
 

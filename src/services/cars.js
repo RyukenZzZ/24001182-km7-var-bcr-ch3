@@ -29,13 +29,27 @@ exports.createCar = async (data, file) => {
     return carRepository.createCar(data);
 };
 
-exports.updateCar = (id, data) => {
+exports.updateCar = async (id, data, file) => {
     // find Car is exist or not (validate the data)
     const existingCar = carRepository.getCarById(id);
     if (!existingCar) {
         throw new NotFoundError("Car is Not Found!");
     }
+        // replicated existing data with new data
+        data = {
+            ...existingCar, // existing Student
+            ...data,
+        };
+    
 
+    if (file?.image) {
+        // If a new file is uploaded, update the image
+        data.image = await imageUpload(file.image);
+    } else {
+        // Keep the existing profile picture
+        data.image = existingCar.image;
+    }
+    
     // if exist, we will delete the Car data
     const updatedCar = carRepository.updateCar(id, data);
     if (!updatedCar) {
