@@ -37,7 +37,7 @@ exports.updateCar = async (id, data, file) => {
     }
         // replicated existing data with new data
         data = {
-            ...existingCar, // existing Student
+            ...existingCar, // existing Car
             ...data,
         };
     
