@@ -973,5 +973,74 @@
             "dsadsadsa"
         ],
         "profilePicture": "https://ik.imagekit.io/ddyxw1f62/car01.min_vWJdN45NZ.jpg"
+    },
+    {
+        "id": "5936801d-a6b1-4923-946b-e82c6ec94787",
+        "plate": "sadadadada",
+        "manufacture": "dsawdqWWDA",
+        "model": "sandjandnwu",
+        "rentPerDay": 3000,
+        "capacity": 2,
+        "description": "sadadada",
+        "availableAt": "asdadad",
+        "transmission": "asdassadasd",
+        "available": false,
+        "type": "adswassad",
+        "year": 2022,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ],
+        "image": "https://ik.imagekit.io/ddyxw1f62/car02.min_DGY9Bo4EL.jpg"
+    },
+    {
+        "id": "5e705360-985e-42f1-9ea8-60d96d156b04",
+        "plate": "sadadadada",
+        "manufacture": "dsawdqWWDA",
+        "model": "sandjandnwu",
+        "rentPerDay": 3000,
+        "capacity": 2,
+        "description": "sadadada",
+        "availableAt": "asdadad",
+        "transmission": "asdassadasd",
+        "available": false,
+        "type": "adswassad",
+        "year": 2022,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ],
+        "image": "https://ik.imagekit.io/ddyxw1f62/car02.min_Nyx3ihFxg.jpg"
+    },
+    {
+        "id": "fd61247d-08aa-4e76-bf4a-f17cf96889d5",
+        "plate": "1",
+        "manufacture": "dsawdqWWDA",
+        "model": "sandjandnwu",
+        "rentPerDay": 3000,
+        "capacity": 2,
+        "description": "sadadada",
+        "availableAt": "asdadad",
+        "transmission": "asdassadasd",
+        "available": false,
+        "type": "adswassad",
+        "year": 2022,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ],
+        "image": "https://ik.imagekit.io/ddyxw1f62/car02.min_41WZMdzP2.jpg"
     }
 ]
