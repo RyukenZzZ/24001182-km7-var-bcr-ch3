@@ -3,11 +3,11 @@ const { imageUpload } = require("../utils/image-kit");
 const { NotFoundError, InternalServerError } = require("../utils/request");
 
 exports.getCars = (manufacture, model) => {
-    const students = carRepository.getCars(manufacture,model);
-    if (students == ""){
+    const cars = carRepository.getCars(manufacture,model);
+    if (cars == ""){
         throw new NotFoundError("Cars with the following criteria were not found!");
     }
-    return students;
+    return cars;
 };
 
 exports.getCarById = (id) => {

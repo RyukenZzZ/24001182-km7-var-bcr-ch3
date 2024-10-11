@@ -7,7 +7,16 @@ exports.getCars = (req, res, next) => {
         req.query?.manufacture,
         req.query?.model
     );
-    successResponse(res, data,"Below, cars with the following criteria");
+
+     // Conditional success message based on query parameters
+     if (req.query?.manufacture || req.query?.model) {
+        // If query parameters are present
+        successResponse(res, data, "Below is a list of cars that fit the criteria.");
+    } else {
+        // If no query parameters are present
+        successResponse(res, data, "All cars listed");
+    }
+    
 };
 
 exports.getCarById = (req, res, next) => {
