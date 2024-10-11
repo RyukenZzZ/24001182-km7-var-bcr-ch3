@@ -877,5 +877,51 @@
             "specs 2"
         ],
         "image": "https://ik.imagekit.io/ddyxw1f62/car01.min_h6qu6JV2p.jpg"
+    },
+    {
+        "id": "c78caa65-43c8-4531-82c8-258b30b6464b",
+        "plate": "test",
+        "manufacture": "test 123",
+        "model": "test",
+        "rentPerDay": 3000,
+        "capacity": 4,
+        "description": "test",
+        "availableAt": "test",
+        "transmission": "test",
+        "available": false,
+        "type": "test",
+        "year": 2,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ],
+        "image": "https://ik.imagekit.io/ddyxw1f62/car01.min_CaY2ltJ_O.jpg"
+    },
+    {
+        "id": "f837c603-94be-418f-b15a-2fcd38a07b5e",
+        "plate": "test",
+        "manufacture": "test",
+        "model": "test",
+        "rentPerDay": 3000,
+        "capacity": 4,
+        "description": "test",
+        "availableAt": "2023-01-14T00:00:00.000Z",
+        "transmission": "test",
+        "available": true,
+        "type": "test",
+        "year": 2,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ],
+        "image": "https://ik.imagekit.io/ddyxw1f62/car19.min_n8y8iVxH-.jpg"
     }
 ]

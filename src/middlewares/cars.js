@@ -36,6 +36,7 @@ exports.validateCreateCar = (req, res, next) => {
 
   req.body = {
     ...req.body,
+    availableAt: new Date(req.body.availableAt),  // Convert availableAt to a Date object
     rentPerDay: Number(req.body.rentPerDay), // Convert rentPerDay to number
     capacity: Number(req.body.capacity), // Convert capacity to number
     year: Number(req.body.year), // Convert year to number
@@ -56,7 +57,7 @@ exports.validateCreateCar = (req, res, next) => {
     rentPerDay: z.number(),
     capacity: z.number(),
     description: z.string(),
-    availableAt: z.string(),
+    availableAt: z.date(),
     transmission: z.string(),
     available: z.boolean(),
     type: z.string(),
@@ -89,6 +90,7 @@ exports.validateUpdateCar = (req, res, next) => {
   // Parse req.body
   req.body = {
     ...req.body,
+    availableAt: new Date(req.body.availableAt),  // Convert availableAt to a Date object
     rentPerDay: Number(req.body.rentPerDay), // Convert rentPerDay to number
     capacity: Number(req.body.capacity), // Convert capacity to number
     year: Number(req.body.year), // Convert year to number
@@ -109,7 +111,7 @@ exports.validateUpdateCar = (req, res, next) => {
     rentPerDay: z.number(),
     capacity: z.number(),
     description: z.string(),
-    availableAt: z.string(),
+    availableAt: z.date(),
     transmission: z.string(),
     available: z.boolean(),
     type: z.string(),
