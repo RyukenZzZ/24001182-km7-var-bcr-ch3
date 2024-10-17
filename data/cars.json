@@ -1153,5 +1153,28 @@
             "specs 2"
         ],
         "image": "https://ik.imagekit.io/ddyxw1f62/car08.min_PFFwTKGd-.jpg"
+    },
+    {
+        "id": "8f8da6ed-9370-42dc-855b-28134d04d044",
+        "plate": "test",
+        "manufacture": "test",
+        "model": "test",
+        "rentPerDay": 3000,
+        "capacity": 4,
+        "description": "test",
+        "availableAt": "2023-01-14T00:00:00.000Z",
+        "transmission": "test",
+        "available": true,
+        "type": "test",
+        "year": 2,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ],
+        "image": "https://ik.imagekit.io/ddyxw1f62/car09.min_4qC0hvGzE.jpg"
     }
 ]

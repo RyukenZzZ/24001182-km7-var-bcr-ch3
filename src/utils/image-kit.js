@@ -1,9 +1,9 @@
 const ImageKit = require ("imagekit");
 
 const imagekit = new ImageKit ({
-    publicKey : "public_kMRHPaQzwDcEPQkcMPkCvkCOAY0=",
-    privateKey : "private_AEKNzKP30Yx+O1weMdP2DUWFx1s=",
-    urlEndpoint: "https://ik.imagekit.io/ddyxw1f62/",
+    publicKey: process.env.IMAGEKIT_PUBLIC_KEY,
+    privateKey: process.env.IMAGEKIT_PRIVATE_KEY,
+    urlEndpoint: process.env.IMAGEKIT_URL_ENDPOINT,
 });
 
 // Image upload function to imagekit
