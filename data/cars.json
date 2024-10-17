@@ -923,5 +923,235 @@
             "specs 2"
         ],
         "image": "https://ik.imagekit.io/ddyxw1f62/car19.min_n8y8iVxH-.jpg"
+    },
+    {
+        "id": "78b3cf21-6bf1-4a0b-936b-70c37f1c5357",
+        "plate": "162871",
+        "manufacture": "dsawdqWWDA",
+        "model": "sandjandnwu",
+        "image": "",
+        "rentPerDay": 3000,
+        "capacity": 2,
+        "description": "sadadada",
+        "availableAt": "2022-12-13T00:00:00.000Z",
+        "transmission": "asdassadasd",
+        "available": false,
+        "type": "adswassad",
+        "year": 2022,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ]
+    },
+    {
+        "id": "16b904a4-088e-498f-916a-fb54942c48c0",
+        "plate": "162871",
+        "manufacture": "dsawdqWWDA",
+        "model": "sandjandnwu",
+        "image": "",
+        "rentPerDay": 3000,
+        "capacity": 2,
+        "description": "sadadada",
+        "availableAt": "2022-12-13T00:00:00.000Z",
+        "transmission": "asdassadasd",
+        "available": false,
+        "type": "adswassad",
+        "year": 2022,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ]
+    },
+    {
+        "id": "45003dac-b17d-4d21-be5b-fbc3ae6af55e",
+        "plate": "162871",
+        "manufacture": "dsawdqWWDA",
+        "model": "sandjandnwu",
+        "rentPerDay": 3000,
+        "capacity": 2,
+        "description": "sadadada",
+        "availableAt": "2022-12-13T00:00:00.000Z",
+        "transmission": "asdassadasd",
+        "available": false,
+        "type": "adswassad",
+        "year": 2022,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ],
+        "image": "https://ik.imagekit.io/ddyxw1f62/car02.min_SPEIwhOqs.jpg"
+    },
+    {
+        "id": "5afd8cc1-ab0c-4d45-b963-77407ed197e4",
+        "plate": "162871",
+        "manufacture": "dsawdqWWDA",
+        "model": "sandjandnwu",
+        "rentPerDay": 3000,
+        "capacity": 2,
+        "description": "sadadada",
+        "availableAt": "2022-12-13T00:00:00.000Z",
+        "transmission": "asdassadasd",
+        "available": false,
+        "type": "adswassad",
+        "year": 2022,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ],
+        "image": "https://ik.imagekit.io/ddyxw1f62/car02.min_2cooAC5PYU.jpg"
+    },
+    {
+        "id": "934a2d71-4111-4bcf-a296-c53baa064598",
+        "plate": "162871",
+        "manufacture": "dsawdqWWDA",
+        "model": "sandjandnwu",
+        "rentPerDay": 3000,
+        "capacity": 2,
+        "description": "sadadada",
+        "availableAt": "2022-12-13T00:00:00.000Z",
+        "transmission": "asdassadasd",
+        "available": false,
+        "type": "adswassad",
+        "year": 2022,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ],
+        "image": "https://ik.imagekit.io/ddyxw1f62/car02.min_J4MudoO07.jpg"
+    },
+    {
+        "id": "a2b77160-55a6-4c54-8557-0f92c10aae7e",
+        "plate": "162871",
+        "manufacture": "dsawdqWWDA",
+        "model": "sandjandnwu",
+        "rentPerDay": 3000,
+        "capacity": 2,
+        "description": "sadadada",
+        "availableAt": "2022-12-13T00:00:00.000Z",
+        "transmission": "asdassadasd",
+        "available": false,
+        "type": "adswassad",
+        "year": 2022,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ],
+        "image": "test image with link"
+    },
+    {
+        "id": "071469cf-8178-451a-a474-4325b55bf040",
+        "plate": "162871",
+        "manufacture": "dsawdqWWDA",
+        "model": "sandjandnwu",
+        "image": "",
+        "rentPerDay": 3000,
+        "capacity": 2,
+        "description": "sadadada",
+        "availableAt": "2022-12-13T00:00:00.000Z",
+        "transmission": "asdassadasd",
+        "available": false,
+        "type": "adswassad",
+        "year": 2022,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ]
+    },
+    {
+        "id": "ac7036b8-03e8-4632-9760-8c61f2f8dd39",
+        "plate": "test",
+        "manufacture": "test",
+        "model": "test",
+        "image": "https://ik.imagekit.io/ddyxw1f62/car09.min_VFAmMjbtp.jpg",
+        "rentPerDay": 3000,
+        "capacity": 4,
+        "description": "test",
+        "availableAt": "2023-01-14T00:00:00.000Z",
+        "transmission": "test",
+        "available": true,
+        "type": "test",
+        "year": 2,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ]
+    },
+    {
+        "id": "14c7f59c-9191-45e5-9872-95cda806bfe5",
+        "plate": "test",
+        "manufacture": "test",
+        "model": "test",
+        "image": "https://ik.imagekit.io/ddyxw1f62/car09.min_ACpFZaNJL.jpg",
+        "rentPerDay": 3000,
+        "capacity": 4,
+        "description": "test",
+        "availableAt": "2023-01-14T00:00:00.000Z",
+        "transmission": "test",
+        "available": true,
+        "type": "test",
+        "year": 2,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ]
+    },
+    {
+        "id": "cdc1973e-94c8-42e4-af5f-274d99c5e139",
+        "plate": "test",
+        "manufacture": "test",
+        "model": "test",
+        "rentPerDay": 3000,
+        "capacity": 4,
+        "description": "test",
+        "availableAt": "2023-01-14T00:00:00.000Z",
+        "transmission": "test",
+        "available": true,
+        "type": "test",
+        "year": 2,
+        "options": [
+            "option 1",
+            "option 2"
+        ],
+        "specs": [
+            "specs 1",
+            "specs 2"
+        ],
+        "image": "https://ik.imagekit.io/ddyxw1f62/car08.min_PFFwTKGd-.jpg"
     }
 ]

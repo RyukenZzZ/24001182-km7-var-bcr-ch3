@@ -50,10 +50,6 @@ exports.validateCreateCar = (req, res, next) => {
     plate: z.string(),
     manufacture: z.string(),
     model: z.string(),
-    image: z.object({
-        name: z.string(),
-        data: z.any(),
-      }).nullable().optional(),
     rentPerDay: z.number(),
     capacity: z.number(),
     description: z.string(),
@@ -66,11 +62,27 @@ exports.validateCreateCar = (req, res, next) => {
     specs: z.array(z.string()),
   });
 
+    // The file is not required
+    const validateFileBody = z.object({
+      image: z.object({
+              name: z.string(),
+              data: z.any(),
+          }).nullable().optional(),
+  }).nullable().optional();
+
+  
   const result = validateBody.safeParse(req.body);
   if (!result.success) {
     // If validation fails, return error messages
     throw new BadRequestError(result.error.errors);
   }
+
+ // Validate
+ const resultValidateFiles = validateFileBody.safeParse(req.files);
+ if (!resultValidateFiles.success) {
+     // If validation fails, return error messages
+     throw new BadRequestError(resultValidateFiles.error.errors);
+ }
 
   next();
 };
@@ -104,10 +116,6 @@ exports.validateUpdateCar = (req, res, next) => {
     plate: z.string(),
     manufacture: z.string(),
     model: z.string(),
-    image: z.object({
-        name: z.string(),
-        data: z.any(),
-      }).nullable().optional(),
     rentPerDay: z.number(),
     capacity: z.number(),
     description: z.string(),
@@ -120,12 +128,27 @@ exports.validateUpdateCar = (req, res, next) => {
     specs: z.array(z.string()),
   });
 
+    // The file is not required
+    const validateFileBody = z.object({
+      image: z.object({
+              name: z.string(),
+              data: z.any(),
+          }).nullable().optional(),
+  }).nullable().optional();
+
   // Validate
   const resultValidateBody = validateBody.safeParse(req.body);
   if (!resultValidateBody.success) {
     // If validation fails, return error messages
     throw new BadRequestError(resultValidateBody.error.errors);
   }
+ 
+  // Validate
+ const resultValidateFiles = validateFileBody.safeParse(req.files);
+ if (!resultValidateFiles.success) {
+     // If validation fails, return error messages
+     throw new BadRequestError(resultValidateFiles.error.errors);
+ }
 
   next();
 };
